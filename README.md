@@ -6,7 +6,12 @@ A simple react app utilizing a firebase backend. Meant to be run inside MS Teams
 
 ### Development
 
-Start dev
+-   edit the .env or create your own .env.local
+-   **bring your own firebase instance!**
+-   create a collection, document, key, set to boolean.
+-   set all these values in your .env
+
+to start the dev environment:
 
 ```bash
 npm run start
