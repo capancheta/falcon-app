@@ -58,18 +58,18 @@ Currently deployed at https://testtype-73020.firebaseapp.com/
                 - offline_access
                 - openid
                 - profile
-    - Grant admin consent
-4. Expose an API
-    - edit the value: `api://<domain-name>/<client-id>`
-    - add scope
-        - Scope name: access_as_user
-        - Who can consent? Admins and Users
-        - Admin consent display name: Teams can access app’s web APIs
-        - Admin consent description: Allows Teams to call the app’s web APIs as the current user.
-        - User consent display name: Teams can access app’s web APIs and make requests on your behalf
-        - User consent description: Enable Teams to call this app’s web APIs with the same rights that you have
-        - State: Enabled
-    - add a Client Application (tick authorized scopes)
+        - Grant admin consent
+    - Expose an API
+        - edit the value: `api://<domain-name>/<client-id>`
+        - add scope
+            - Scope name: access_as_user
+            - Who can consent? Admins and Users
+            - Admin consent display name: Teams can access app’s web APIs
+            - Admin consent description: Allows Teams to call the app’s web APIs as the current user.
+            - User consent display name: Teams can access app’s web APIs and make requests on your behalf
+            - User consent description: Enable Teams to call this app’s web APIs with the same rights that you have
+            - State: Enabled
+        - add a Client Application (tick authorized scopes)
         - 5e3ce6c0-2b1f-4285-8d4b-75ee78787346 (MS Teams client)
         - 1fec8e78-bce4-4aaf-ab1b-5451cc387264 (MS Teams web client)
 
