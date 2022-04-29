@@ -36,7 +36,7 @@ class HyperDrive extends Component {
 
     handleCheck(value) {
         updateDocumentValue(id, key, value.checked);
-        this.setState({ checked: value.checked });
+        // this.setState({ checked: value.checked }); //not necessary. subscribe does the updating of the component already.
     }
 
     render() {
